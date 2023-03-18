@@ -1,3 +1,4 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
 n=int(input())
 
 for i in range(n):
@@ -14,4 +15,4 @@ for i in range(n):
         #if index is odd
         else:
             odd+=string[j]
-    print("{} {}".form
+    print("{} {}".format(even,odd))
